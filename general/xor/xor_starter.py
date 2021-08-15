@@ -13,6 +13,7 @@ def main():
 
     for i in test_input:
         new_string += chr(ord(i) ^ target_num)
+        print("time")
     
     print(f"crypto{{{new_string}}}")
 
