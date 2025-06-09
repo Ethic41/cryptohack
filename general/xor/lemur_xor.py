@@ -6,8 +6,9 @@
 # @Description : something cool
 
 
-from pwn import *
+from pwn import xor
 from PIL import Image
+
 
 def main():
     flag_image = Image.open("flag.png")
@@ -26,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

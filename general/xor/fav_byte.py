@@ -6,7 +6,7 @@
 # @Description : something cool
 
 
-from pwn import *
+from pwn import unhex, xor
 
 
 def main():
@@ -23,4 +23,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
